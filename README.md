@@ -14,6 +14,12 @@ A simple web-based Spotify clone built using **HTML**, **CSS**, and **JavaScript
 
 ## 🚀 Getting Started
 
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/spotify-clone.git
+cd spotify-clone
+
 ## 📁 Project Structure
 
 spotify-clone/
@@ -26,10 +32,4 @@ spotify-clone/
 ├── covers/
 │ └── *.jpg
 └── README.md
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/spotify-clone.git
-cd spotify-clone
 
