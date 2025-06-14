@@ -14,11 +14,12 @@ Simple timetable layout using HTML and CSS.
 A basic chessboard using grid layout.
 
 ### 📝 Application Form
-HTML form project with basic styling.
+HTML form project with basic styling..
 
 ---
 
 ## 🚀 How to Run
 
-Open `index.html` or any project file directly in your browser.
+download the repo and extract it and
+Open `index.html` or any project file directly in your browser...
 
