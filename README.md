@@ -18,7 +18,7 @@ HTML form project with basic styling..
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run 
 
 download the repo and extract it and,
 Open `index.html` or any project file directly in your browser...
