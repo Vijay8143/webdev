@@ -16,7 +16,7 @@ A basic chessboard using grid layout.
 ### 📝 Application Form
 HTML form project with basic styling..
 
----
+----
 
 ## 🚀 How to Run 
 
