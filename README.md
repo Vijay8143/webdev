@@ -1,35 +1,24 @@
-﻿# 🎧 Spotify Playlist Clone
+﻿# WebDev Projects
 
-A simple web-based Spotify clone built using **HTML**, **CSS**, and **JavaScript**. This project replicates the basic UI and music-playing functionality of Spotify for learning and demonstration purposes.git
+This repository contains mini web development projects:
 
-## ✅ Features
+## 📁 Projects
 
-- Play and pause music
-- Navigate to next and previous songs
-- Display song name and cover image
-- Custom progress bar
-- Responsive design
+### 🎵 SPOTIFY-PLAYLIST-CLONE
+A responsive Spotify UI clone built with HTML, CSS, and JavaScript.
+
+### 🗓️ Timetable Generator
+Simple timetable layout using HTML and CSS.
+
+### ♟️ Chessboard
+A basic chessboard using grid layout.
+
+### 📝 Application Form
+HTML form project with basic styling.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Run
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/spotify-clone.git
-cd spotify-clone
-
-## 📁 Project Structure
-
-spotify-clone/
-├── index.html
-├── style.css
-├── script.js
-├── logo.png
-├── songs/
-│ └── *.mp3
-├── covers/
-│ └── *.jpg
-└── README.md
+Open `index.html` or any project file directly in your browser.
 
