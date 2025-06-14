@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: lightgrey;
+            margin: 0;
+        }
+        div{
+            background-color: white;       
+            width: 300px;
+            padding: 30px;
+            border-radius: 5px;
+
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form{
+            padding:10px;
+        }
+        input{
+            width:100%;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding:10px;
+            
+        }
+        button{
+            width:100%;
+            margin:  0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding:10px 1px;
+            background-color: rgb(255, 127, 144);
+            color: white;
+            cursor: pointer;
+
+        }
+        button:hover{
+            background-color: lightgreen;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+            display:block;
+            text-align:center;
+            margin:10px;
+        }
+        a:hover{
+            color:lightblue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <h2>login form</h2>
+        <form action="#" >
+            <input type="text" placeholder="Username" name="username" required>
+            <input type="password" placeholder="password" name="password"  required>
+            <button >submit</button>
+            <a href="#"  ><label>forgot password</label></a>
+        </form>
+        
+    </div>
+</body>
+</html>
