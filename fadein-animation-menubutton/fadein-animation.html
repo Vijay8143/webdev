@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fadein-animation</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            border: 0;
+            background-color: whitesmoke;
+            overflow-x: hidden;
+        }
+        .menu-button{
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            cursor: pointer;
+            z-index:1001;
+        }
+        .menu-button .bar {
+        width: 30px;
+        height: 4px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -250px;
+        width: 250px;
+        height: 100vh;
+        background-color: #222;
+        padding-top: 60px;
+        transition: left 0.4s ease;
+        z-index: 1000;
+}
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+}
+    .sidebar ul li {
+        padding: 15px;
+        border-bottom: 1px solid #444;
+    }
+    .sidebar.open {
+    left: 0;
+}
+.line{
+    position: relative;
+    color: white;
+    overflow: hidden;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    z-index: 1;
+}
+.line:hover{
+    background-color: #444;
+    transform: scale(1.03);
+}
+    /*.line::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #bbb;
+    z-index: -1;
+    transition: width 0.9s ease-in-out;
+}
+.line:hover::before {
+    width: 100%;
+}
+.line:hover {
+    color: black;
+}*/
+
+    </style>
+</head>
+<body>
+    <div class="menu-button" id="menu-button">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <nav class="sidebar" id="sidebar">
+        <ul class="list">
+            <li class="line">About</li>
+            <li class="line">Settings</li>
+            <li class="line">Stocks</li>
+            <li class="line">Rewards</li>
+            <li class="line">More info</li>
+        </ul>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
